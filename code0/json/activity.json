@@ -1,0 +1,40 @@
+{
+  "act_data": [
+    {
+      "pic": [
+        {
+          "Hyperlink": "#",
+          "img_link": "images/images_home/activity/zxhd_mca2.jpg"
+        },
+        {
+          "Hyperlink": "#",
+          "img_link": "images/images_home/activity/zxhd_lvmini.jpg"
+        }
+      ]
+    },
+    {
+      "pic": [
+        {
+          "Hyperlink": "#",
+          "img_link": "images/images_home/activity/zxhd_xrjx.jpg"
+        },
+        {
+          "Hyperlink": "#",
+          "img_link": "images/images_home/activity/zxhd_sczx.jpg"
+        }
+      ]
+    },
+    {
+      "pic": [
+        {
+          "Hyperlink": "#",
+          "img_link": "images/images_home/activity/zxhd_2016yy.jpg"
+        },
+        {
+          "Hyperlink": "#",
+          "img_link": "images/images_home/activity/zxhd_cyj.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,468 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>索尼中国在线商城—智能手机、数码产品及配件、家庭音响产品，消费类电子产品索尼官方信息平台。轻松完成产品注册，即刻加入My Sony Club!</title>
+		<meta charset = "utf-8" />
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link type="text/css" href="css/home.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/common.css" type="text/css" />
+	    <script type="text/javascript" src = "jquery-1.10.1.min.js"></script>
+	    <script type="text/javascript" src = "Jquery_animation.js"></script>
+	    <script type="text/javascript" src = "perfect_startMove.js"></script>
+	    <script type="text/javascript" src="js/home_js/nav2.js"></script>
+		<script type="text/javascript" src = "js/tool2.js"></script>
+		
+		<script src = "js/ajax.js"></script>
+		<script src = "js/home.js"></script>
+	</head>
+	<body style="overflow-y: scroll">
+		<!--*************header*******************-->
+		<div class = "header">
+			<div class = "wrap">
+					<div class = "left">
+						<span>加入My Sony Club,专属会员权益随时享！</span>
+						<a href="#">登入</a> |
+						<a href="#">注册</a>
+					</div>
+					<ul class = "right">
+						<li class = "blue"><a  href="#">My Sony Club</a></li>
+						<li><a href="#">我的账户</a></li>
+						<li><a href="#">产品注册</a></li>
+						<li><a href="#">会员福利</a></li>
+						<li class = "mr0"><a href="html/more_promote.html">更多促销</a></li>
+					</ul>
+			</div>
+		</div>
+		<!--*************nav*******************-->
+		<div class = "nav">
+			<div class = "wrap">
+				<h3>Sony</h3>
+				<ul class = "guide">
+					<li class="pre tab" id = "classify">
+						<a>商品分类</a>
+						<i class="pab normal"></i>
+						<div class="tabDiv" id="navMain"></div>
+					</li>
+					<li class="pre tab" id = "net">
+						<a>网站导航</a>
+						<i class="pab normal"></i>
+						<div class="tabDiv" id="navMore"></div>
+					</li>
+				</ul>
+				<form>
+					<input class="txt" type="text" placeholder="醇音典范" />
+					<input class="btn" type = "button" />
+				</form>
+				<ul class = "links">
+					<li><a href="#">索尼中国App</a></li>
+					<li class = "center"><i></i><a href="#">索尼应用中心</a></li>
+					<li><a href="#">配件城</a></li>
+				</ul>
+				<div class = "cart pre">
+					<div class = "count pab">0</div>
+				</div>
+			</div>
+		</div>
+		<!--*************scrollNav*******************-->
+		<div class="scrollNav">
+			<div class="wrap">
+				<h3>Sony</h3>
+				<form>
+					<input class="txt" type="text" placeholder="醇音典范" />
+					<input class="btn" type = "button" />
+				</form>
+				<ul>
+					<li>数码影像<i class="normal"></i></li>
+					<li>便携影音<i class="normal"></i></li>
+					<li>影音娱乐<i class="normal"></i></li>
+					<li>手机平板<i class="normal"></i></li>
+					<li>视频游戏<i class="normal"></i></li>
+					<li>会员专区<i class="normal"></i></li>
+					<li>购物车</li>
+				</ul>
+			</div>
+		</div>
+
+		<!--*************banner*******************-->
+		<div class = "banner">
+			<div id = "bannerDiv">					
+				<ul>
+					<li>
+						<a href = "#">
+							<img class="first" src = "images/images_home/banner/kv_ylxd.jpg"/>
+						</a>
+					</li>
+					<li>
+						<a href = "#">
+							<img src = "images/images_home/banner/kv_3xdys.jpg"/>
+						</a>
+					</li>
+					<li>
+						<a href = "#">
+							<img src = "images/images_home/banner/kv_FDR-X3000R3.jpg"/>
+						</a>
+					</li>
+				</ul> 
+				<!-- <input type = "button" id = "left0" class = "pab"/>
+				<input type = "button" id = "right0" class = "pab"/> -->
+			</div>
+			<div id = "btn">
+				<div class = "wrap">
+					<a class = "active">
+						<p>XPERIA XZ系列</p>
+						<p>开启预售</p>
+					</a>
+					<a>
+						<p>醇音典范</p>
+						<p>索尼高保真旗舰新品</p>
+					</a>
+					<a class = "mr0">
+						<p>索尼首款平稳光学防抖</p>
+						<p>4K运动摄像机FDR—X3000R</p>
+					</a>
+				</div>
+			</div>
+		</div> 
+		<!--*************activity*******************-->
+		<div class="activity">
+			<div class = "wrap">
+				<h3>最近活动</h3>
+				<div id = "activity_div0">
+				<!-- 下面这些是JSON生成的 -->
+				</div>
+				<div id="activity_btn">
+					<a class="active"></a>
+					<a></a>
+					<a></a>
+				</div>				
+				<input type = "button" id = "left1" class = "pab"/>
+				<input type = "button" id = "right1" class = "pab"/>
+			</div>
+		</div>
+		<!--*************new release*******************-->
+		<div class="new_product">
+			<div class="wrap">
+				<h3>新品发布</h3>
+				<div class ="np">
+					<div id="np_div"></div>
+				</div>
+				
+			</div>
+		</div>
+		<!--***************************************product******************************************-->
+		<div class="product">
+			<div class="wrap">
+			<!--*************video*******************-->
+				<div class="video" id="home_video">
+					<h3><em></em>数码影像产品</h3>
+					<ul class="p_nav">
+						<li><a href="#">数码摄像机</a></li>
+						<li><a href="#">数码相机</a></li>
+						<li><a href="#">简单™数码相机</a></li>
+						<li><a href="#">数码单反/单电相机</a></li>
+						<li><a href="#">佩戴式摄像机</a></li>
+						<li><a href="#">应用软件</a></li>
+						<li><a href="#">线下体验</a></li>
+						<li class="last"><a href="#">热门活动</a></li>
+					</ul>
+					<div id="v_div"></div>
+					<p class="essential">
+						<span>装机必备：</span>
+						<a href="#">PlayMemories Mobile</a>|
+						<a href="#">PlayMemories Home</a>|
+						<a href="#">PlayMemories Camera Apps</a>|
+						<a href="#">Capture One(For Sony)</a>|
+						<a href="#">Image Data Converter</a>|
+						<a href="#">Action Cam APP</a>|
+						<a href="#">Movie Creator</a>
+						<input type="button" class="backtoup" />
+					</p>
+
+				</div>
+				<!--*************audio*******************-->
+				<div class="audio" id="home_audio">
+					<h3><em></em>便携音频产品</h3>
+					<ul class="p_nav">
+						<li><a href="#">高解析度音频设备</a></li>
+						<li><a href="#">MP4/MP3 播放器</a></li>
+						<li><a href="#">数码录音棒</a></li>
+						<li><a href="#">耳机</a></li>
+						<li class="last"><a href="#">应用软件</a></li>
+					</ul>
+					<div id ="a_div"></div>
+					<p class="essential">
+						<span>装机必备：</span>
+						<a href="#">索尼精选+Hi-Res Audio</a>|
+						<a href="#">Smart Key</a>|
+						<a href="#">SongPal</a>|
+						<a href="#">Hi-Res Audio Player</a>|
+						<a href="#">HDD Audio Remote</a>|
+						<a href="#">HAP Music Transfer</a>|
+						<a href="#">REC Remote</a>
+						<input type="button" class="backtoup" />
+					</p>
+				</div>
+				<!--*************TV*******************-->
+				<div class="tv" id="home_tv">
+					<h3><em></em>影音娱乐</h3>
+					<ul class="p_nav">
+						<li><a href="#">视频游戏机</a></li>
+						<li><a href="#">液晶电视机</a></li>
+						<li><a href="#">家庭影音系统</a></li>
+						<li><a href="#">4k/2k播放器</a></li>
+						<li class="last"><a href="#">应用软件</a></li>
+					</ul>
+					<div id="tv_div"></div>
+					<p class="essential">
+						<span>装机必备：</span>
+						<a href="#">TV SideView</a>
+						<input type="button" class="backtoup" />
+					</p>
+				</div>
+				<!--*************Smart Phone*******************-->
+				<div class="phone" id="home_phone">
+					<h3><em></em>智能手机</h3>
+					<ul class="p_nav">
+						<li><a href="#">智能手机</a></li>
+						<li class="last"><a href="#">智能手机配件</a></li>
+					</ul>
+					<div id="s_div"></div>
+				</div>
+			</div>
+		</div>
+				
+		<!--***********************************club******************************************-->
+		<div class="club" id="home_club">
+			<div class="wrap">
+				<h3><em></em>My Sony Club会员专区</h3>
+				<ul class="p_nav">
+					<li><a href="#">我的索尼</a></li>
+					<li><a href="#">最新动态</a></li>
+					<li><a href="#">产品注册</a></li>
+					<li><a href="#">My Sony学院</a></li>
+					<li><a href="#">顾客心声</a></li>
+					<li class="last"><a href="#">壁纸下载</a></li>
+				</ul>
+				<div id="c_div"></div>
+				<input type="button" class="backtoup"/>
+			</div>
+		</div>
+		<!--*************pr(public relation) essay*******************-->
+		<div class="pr">
+			<div class="wrap">
+				<div class="essay"></div>
+				<div class="others">
+					<a>
+						<img class="normal" src="images/images_home/pr/bottom_blcok2bg1.jpg" />
+					   <img class="on" src="images/images_home/pr/bottom_blcok2bg1_on.jpg" />
+					</a>
+					<a>
+						<img class="normal" src="images/images_home/pr/bottom_blcok2bg2.jpg" />
+						<img class="on" src="images/images_home/pr/bottom_blcok2bg2_on.jpg" />
+					</a>
+					<a>
+						<img class="normal" src="images/images_home/pr/bottom_blcok2bg3.jpg" />
+						<img class="on" src="images/images_home/pr/bottom_blcok2bg3_on.jpg" />
+					</a>
+					<a>
+						<img class="normal" src="images/images_home/pr/bottom_blcok2bg4.jpg" />
+						<img class="on" src="images/images_home/pr/bottom_blcok2bg4_on.jpg" />
+					</a>
+					<a class="last">
+						<img class="normal" src="images/images_home/pr/bottom_blcok2bg5.jpg" />
+						<img class="on" src="images/images_home/pr/bottom_blcok2bg5_on.jpg" />
+					</a>
+				</div>
+				
+			</div>
+		</div>
+
+		<!--************news*******************-->
+		<div class="news">
+			<div class="wrap">
+				<div class="news_left">
+					<h3>新闻通知</h3>
+					<div class="news_titles"></div>
+				</div>
+				<div class="news_right">
+					<h3>关注我们</h3>
+					<div class="QR">
+						<dl>
+							<dt><img src="images/images_home/news/bottom_share1.jpg" /></dt>
+							<dd>索尼中国</dd>
+							<dd>官方微信服务号</dd>
+						</dl>
+						<dl class="app">
+							<dt><img src="images/images_home/news/sony_china_app.jpg" /></dt>
+							<dd>索尼中国APP</dd>
+							<dd><a href="#">点击查看</a></dd>
+						</dl>
+						<dl class="sonylive">
+							<dt><img src="images/images_home/news/bottom_share2.png" /></dt>
+							<dd>索尼官方频道</dd>
+							<dd><a href="#">点击查看</a></dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--***********footer*******************-->
+		<div class = "footer">
+			<div class="wrap1">
+				<div class="footer_top">
+					<h4>产品快速索引</h4>
+					<div>
+						<dl>
+							<dt>视频游戏</dt>
+							<dd><a href="#">PlayStation®4</a></dd>
+							<dd><a href="#">PlayStation®Vita</a></dd>
+							<dd><a href="#">PlayStation®配件</a></dd>
+						</dl>
+						<dl>
+							<dt>视频游戏</dt>
+							<dd><a href="#">Xperia<sup>TM</sup>智能手机</a></dd>
+							<dd><a href="#">Xperia<sup>TM</sup>智能手机配件</a></dd>			
+						</dl>
+						<dl>
+							<dt>视频游戏</dt>
+						</dl>
+					</div>
+					<div>
+						<dl>
+							<dt>家庭影像产品</dt>
+							<dd><a href="#">液晶电视机</a></dd>
+							<dd><a href="#">PlayStation</a></dd>
+							<dd><a href="#">4K播放器</a></dd>
+						</dl>
+						<dl>
+							<dt>家庭音频</dt>
+							<dd><a href="#">家庭影音系统</a></dd>
+							<dd><a href="#">家庭音频系统</a></dd>
+							<dd><a href="#">迷你音响组合</a></dd>
+							<dd><a href="#">无线扬声器</a></dd>
+						</dl>
+					</div>
+					<div>
+						<dl>
+							<dt>数码影像产品</dt>
+							<dd><a href="#">数码摄像机</a></dd>
+							<dd><a href="#">数码相机</a></dd>
+							<dd><a href="#">微单<sup>TM</sup>数码相机</a></dd>
+							<dd><a href="#">数码单反/单电相机</a></dd>
+							<dd><a href="#">运动摄像机</a></dd>
+							<dd><a href="#">摄录望远镜</a></dd>
+							<dd><a href="#">索尼存储卡</a></dd>
+						</dl>
+					</div>
+					<div>
+						<dl>
+							<dt>高解析度音频设备</dt>
+						</dl>
+						<dl>
+							<dt>便携音频产品</dt>	
+							<dd><a href="#">MP4/MP3播放器</a></dd>
+							<dd><a href="#">数码录音棒</a></dd>
+							<dd><a href="#">耳机</a></dd>
+							<dd><a href="#">闹钟收音机</a></dd>
+						</dl>
+						<dl>
+							<dt>行业解决方案</dt>
+						</dl>
+					</div>
+				</div>
+				<div class="footer_bt">
+					<div>
+						<dl>
+							<dt>如何订购</dt>	
+							<dd><a href="#">在线订购指南</a></dd>
+							<dd><a href="#">线下购买</a></dd>
+							<dd><a href="#">Sony Store直营店</a></dd>
+							<dd><a href="#">索尼影像交流中心</a></dd>
+						</dl>
+					</div>
+					<div>
+						<dl>
+							<dt>会员天地</dt>	
+							<dd><a href="#">我的索尼</a></dd>
+							<dd><a href="#">最新动态</a></dd>
+							<dd><a href="#">产品注册</a></dd>
+							<dd><a href="#">My Sony学院</a></dd>
+							<dd><a href="#">顾客心声</a></dd>
+							<dd><a href="#">壁纸下载</a></dd>
+							<dd><a href="#">会员权益</a></dd>
+						</dl>
+					</div>
+					<div>
+						<dl>
+							<dt>服务与支持</dt>	
+							<dd><a href="#">产品说明书</a></dd>
+							<dd><a href="#">驱动程序检索</a></dd>
+							<dd><a href="#">常见问题</a></dd>
+							<dd><a href="#">保修条款</a></dd>
+							<dd><a href="#">维修网络查询</a></dd>
+							<dd><a href="#">索尼手机客户服务</a></dd>
+							<dd><a href="#">服务动态</a></dd>
+						</dl>
+					</div>
+					<div>
+						<dl class="last">
+							<dt>更多促销</dt>	
+							<dd><a href="#">索尼应用中心</a></dd>
+							<dd><a href="#">索尼视频教程中心</a></dd>
+							<dd><a href="#">新闻中心</a></dd>
+							<dd><a href="#">产品注册</a></dd>
+							<dd><a href="#">索尼中国影像产品正品认证</a></dd>
+						</dl>
+					</div>
+				</div>
+				<div class="moreInfo">
+					<a href="#">购物指南</a>
+					<a href="#">销售条款</a>
+					<a href="#">付款方式</a>
+					<a href="#">货物配送</a>
+					<a href="#">收货流程</a>
+					<a href="#">退货流程</a>
+					<a href="#">客户个人信息保密条款</a>
+				</div>
+				<div class="claim">
+					<div class="c_left">
+						<a href="#">索尼中国首页</a>
+						<a href="#">联系我们</a>
+						<a href="#">责任声明</a>
+						<a href="#">网站所有者信息</a>
+					</div>
+					<p>2016索尼（中国）有限公司 版权所有</p>
+				</div>
+				<p class="monitor">您访问本网站将会被监控，请点击<a href="#">此处</a>获得详细信息</p>
+				<div class="ICP">
+					<p>本网站包含推销产品或服务的广告</p>
+					<p>京ICP备05036958号</p>
+					<img src="images/images_home/cert_LOGO.png" />
+				</div>
+			</div>
+		</div>
+		<!-- 首页侧边栏 -->
+		<ul class="sideBar">
+			<li><a href="#home_video">
+				<div><i></i>数码<br/>影像</div>
+				<img src = "images/images_home/RightFixNav_icon1.jpg"/>
+			</a></li>
+			<li><a href="#home_audio">
+				<div><i></i>便携<br/>音频</div>
+				<img src = "images/images_home/RightFixNav_icon2.jpg"/>
+			</li>
+			<li><a href="#home_tv">
+				<div><i></i>影音<br/>娱乐</div>
+				<img src = "images/images_home/RightFixNav_icon3.jpg"/>
+			</a></li>
+			<li><a href="#home_phone">
+				<div><i></i>智能<br/>手机</div>
+				<img src = "images/images_home/RightFixNav_icon.jpg"/>
+			</a></li>
+			<li><a href="#home_club">
+				<div><i></i>会员<br/>专区</div>
+				<img src = "images/images_home/RightFixNav_icon5.jpg"/>
+			</a></li>
+		</ul>
+	</body>
+</html>

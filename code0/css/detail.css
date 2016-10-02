@@ -1,0 +1,87 @@
+
+
+/*--------------------------mainInfo-------------------------*/
+.mainInfo{height:1130px;background: url(../images/details/pro_info_bg_line.gif) repeat-X bottom}
+.mainInfo .wrap1{height: 1130px; overflow: hidden;}
+				/*----------------where--本网页位置索引区------------*/
+.where{height:58px; font:12px/58px "";}
+.where p{width:400px; float:left; }
+.where p a{color:#999;margin:0 5px;}
+.where p span{color:#999; margin-left:5px;}
+.where h5{display:block;width:100px;float:right; }
+				/*----------------buy--购买区------------*/
+.buy{height:660px;}
+.buy .proPics{width:545px; height:660px;float:left; }
+.buy .proPics h1{font:18px/30px "";height:30px; font-weight: 900;margin-left: 5px;}
+.buy .proPics .biggerPic{width:504px;height: 504px;margin:15px 0 21px 22px; background: green;}
+.buy .proPics .smallerPic{width:376px;height:90px;margin-left: 38px;}
+.buy .proPics .smallerPic li{ width:88px;height:88px;float:left;margin-right:4px;border:1px solid #ccc;}
+.buy .proPics .smallerPic li img{padding:2px;}
+.buy .proPics .smallerPic li.active{border-color:#00a4e3;}
+
+.buy .addToCart{width:415px;height: 660px; float:left;}
+.buy .addToCart a.parameterBtn{display: block;width:111px;height: 30px;float:right;margin-right:4px;background: url(../images/details/product_view_tit_btn.gif) no-repeat;}
+.buy .addToCart .des{width:415px;height:259px;border-bottom: 1px solid #ccc;margin-top: 35px;}
+.buy .addToCart .des dl dt{font:18px/42px "";}
+.buy .addToCart .des dl dd{margin-left:4px;font:12px/18px ""; background: url(../images/details/ui-bg_flat_75_ffffff_40x100.png) no-repeat left center; padding-left: 12px;}
+.buy .addToCart .des a{margin-left: 14px;font:12px/18px "";color:#c40000;}
+
+.buy .addToCart .choose{height:146px; border-bottom: 1px solid #ccc;}
+.buy .addToCart .choose i{font:12px/44px ""; color:#999; }
+.buy .addToCart .choose .color{height: 44px;}
+.buy .addToCart .choose .color i{float:left;}
+.buy .addToCart .choose .color li{display: block;float:left;width:18px; height: 18px;border: 1px solid #ccc;margin:12px 3px 0 7px;}
+.buy .addToCart .choose .color li.black{background: #000}
+.buy .addToCart .choose .color li.active{border:2px solid #00a4e3;}
+
+.buy .addToCart .choose .countNum{height: 44px;}
+.buy .addToCart .choose .countNum i{float:left;}
+.buy .addToCart .choose .countNum input{width:36px;height: 20px;border: 1px solid #ccc; text-align:center;float: left;margin: 12px 0 0 7px;}
+.buy .addToCart .choose .countNum .add_minus{float:left; width: 15px;height: 22px; margin-top: 12px; margin-right: 3px;}
+.buy .addToCart .choose .countNum em{display: block;width: 15px;height: 8px; }
+.buy .addToCart .choose .countNum em.add{background:url(../images/details/number_jia.gif) no-repeat left -3px;}
+.buy .addToCart .choose .countNum em.minus{background:url(../images/details/number_jian.gif) no-repeat left -3px;}
+.buy .addToCart .choose .price{height: 44px}
+.buy .addToCart .choose .price i{float:left;}
+.buy .addToCart .choose .price span.RMB{font:18px/44px ""; color:#2cb9e7; float:left;}
+.buy .addToCart .choose .price span.RMB em{font:18px/44px ""; color:#2cb9e7;}
+.buy .addToCart .choose .price span.credit{font:12px/16px ""; height: 16px;width:103px;display: block;background:#2cb9e7; float:left;margin:12px 0 0 47px;}
+.buy .addToCart .cartBtn{width:169px;height: 38px;background: url(../images/details/btn_cart.gif) no-repeat; margin-top:10px;}
+.buy .addToCart a.registerPro{font:12px/12px ""; margin-top: 13px;text-decoration: underline;color:#c40000;}
+
+
+
+
+
+
+				/*----------------tool 配送、客服等功能区--------------*/
+.tool{height: 63px; width:972px;border-top:1px solid #ccc; border-bottom: 1px solid #ccc; margin-top: 30px;}
+.tool a{display: block;float:left; width:108px; margin-top: 10px;}
+				/*----------------recPro 推荐产品部分--------------*/
+.recommend{height: 312px; overflow: hidden}				
+.recommend h3{font:22px/58px ""; font-weight: 900;margin-top: 12px;}
+.recommend #recPro{width: 960px;margin:0 auto; height:224px;margin-left:5px;}
+/*----下面为JSON数据生成部分------------*/
+#recPro a.outer{display: block; height:222px; width:230px; border:1px solid #ccc; margin-right:8px; float:left;position: relative;}
+#recPro a.outer:hover{border-color:#2cc8f0;}
+#recPro a.outer i{display:inline-block;padding:0 20px;height:30px; font:10px/30px ""; background: #797979;}
+#recPro a.outer img{position: absolute;left:11px;top:30px;}
+#recPro a.outer h5{margin-top: 142px; font:12px/22px ""; margin-left: 10px;}
+#recPro a.outer div{width:210px;height:14px;margin-left: 10px;}
+#recPro a.outer div p{width:80px;height: 14px;background: url(../images/details/buy_car.gif) no-repeat; float:left;}
+#recPro a.outer div a{float:right; font:12px/14px ""; color:#2cc8f0; background: url(../images/details/icon_arr_blue.gif) no-repeat right center; padding-right:12px;}
+/*--------------------------subNav-------------------------*/
+.subNav{height:54px;}
+.subNav .wrap1{height:54px;}
+.subNav .wrap1 h1{font:22px/54px ""; font-weight: 900; float:left;margin-left: 6px;}
+.subNav .wrap1 .subNav_right{width: 400px;height: 38px; float:right;}
+.subNav .wrap1 .subNav_right a{display:block; float:left;margin-top: 8px; border-left:1px solid #ccc;}
+.subNav .wrap1 .subNav_right a img.on{display: none;}
+
+/*----------------------------------------details-------------------------*/
+.details img{width:100%;height:5401px;}
+
+
+
+
+
